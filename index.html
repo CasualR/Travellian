@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/Vector.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="AirDatepicker/air-datepicker.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Travellian</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header anim_items anim_no">
+                <div class="header_container">
+                    <a href="#" class="header_logoLink">
+                        <img src="img/header_logo.svg" alt="" class="header_logo">
+                    </a>
+                    <ul class="header_links">
+                        <li><a href="#" class="header_link">Home</a></li>
+                        <li><a href="#" class="header_link">Explore</a></li>
+                        <li><a href="#" class="header_link">Travel</a></li>
+                        <li><a href="#" class="header_link">Blog</a></li>
+                        <li><a href="#" class="header_link">Pricing</a></li>
+                        <li><a href="#" class="header_button_2">Login</a></li>
+                        <li><a href="#" class="header_sign_2">Sign up</a></li>
+                    </ul>
+                    <div class="header_buttons">
+                        <a href="#" class="header_button">Login</a>
+                        <a href="#" class="header_sign">Sign up</a>
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main_header anim_items anim_no">
+                <div class="main_header_conteiner">
+                    <div class="main_wrapper">
+                        <div class="main_text">
+                            <div class="main_title">Start your unforgettable
+                                journey with us.</div>
+                            <div class="main_subtitle">The best travel for your jouney begins now</div>
+                        </div>
+                        <div class="main_block">
+                            <div class="main_block_container">
+                                <form action="#" method="get" enctype="multipart/form-data" class="main_form">
+                                    <div class="main_form_icons">
+                                        <div class="main_place_block">
+                                            <div class="main_block_text">Destination</div>
+                                            <input type="text" name="place" class="main_place" value="">
+                                        </div>
+                                        <div class="main_number_block">
+                                            <div class="main_block_text">Person</div>
+                                            <select name="number-persons" id="" class="main_number_persons">
+                                                <option class="main_option" value="1">1</option>
+                                                <option class="main_option" value="2">2</option>
+                                                <option class="main_option" value="3">3</option>
+                                                <option class="main_option" value="4">4</option>
+                                                <option class="main_option" value="5">5</option>
+                                                <option class="main_option" value="more">More</option>
+                                            </select>
+                                        </div>
+                                        <div class="main_date_block">
+                                            <div class="main_block_text">Check in</div>
+                                            <input type="text" name="CheckIn" id="airdatepicker" class="main_date">
+                                        </div>
+                                        <div class="main_date_block">
+                                            <div class="main_block_text">Check out</div>
+                                            <input type="text" name="CheckOut" id="airdatepicker" class="main_date">
+                                        </div>
+                                    </div>
+                                    <div class="main_button_wrapper">
+                                        <button type="submit" class="main_button"><span class="main_button_text">Book
+                                                Now</span></button>
+                                        <img src="img/Arrow 1.svg" alt="" class="main_arrow">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_swiper">
+                        <div class="main_swiper_container swiper-wrapper">
+                            <div class="main_swiper_slide_wrapper swiper-slide">
+                                <img src="img/Hero Section_1.png" alt="" class="main_swiper_slide">
+                            </div>
+                            <div class="main_swiper_slide_wrapper swiper-slide">
+                                <img src="img/zdaniia_arhitektura_ozero_144390_1920x1200.jpg" alt=""
+                                    class="main_swiper_slide">
+                            </div>
+                            <div class="main_swiper_slide_wrapper swiper-slide">
+                                <img src="img/ozero_domik_gory_124286_1920x1200.jpg" alt="" class="main_swiper_slide">
+                            </div>
+                            <div class="main_swiper_slide_wrapper swiper-slide">
+                                <img src="img/ulitsa_gorod_zdaniia_198830_1920x1200.jpg" alt=""
+                                    class="main_swiper_slide">
+                            </div>
+                            <div class="main_swiper_slide_wrapper swiper-slide">
+                                <img src="img/gorod_vid_sverhu_zdaniia_199618_1920x1200.jpg" alt=""
+                                    class="main_swiper_slide">
+                            </div>
+                        </div>
+                        <div class="main_nav_wrapper">
+                            <div class="main_nav">
+                                <div class="main_pagination_wrapper">
+                                    <div class="main_pagination swiper-pagination"></div>
+                                </div>
+                                <div class="main_arrows">
+                                    <div class="main_arrow_L swiper-button-prev"></div>
+                                    <div class="main_arrow_R swiper-button-next"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="popular anim_items anim_no">
+                <div class="popular_container">
+
+                    <div class="popular_title_wrapper">
+                        <div class="popular_title">Popular Destinations</div>
+                        <div class="popular_subtitle">Most popular destinations around the world, from historical places
+                            to natural wonders.</div>
+                    </div>
+
+                    <div class="popular_swiper anim_items anim_no">
+
+                        <div class="popular_nav_container">
+                            <div class="popular_nav_wrapper">
+                                <div class="popular_nav_L swiper-button-prev"></div>
+                                <div class="popular_nav_R swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="popular_swiper_wrapper swiper-wrapper">
+
+                            <div class="popular_slide swiper-slide">
+                                <div class="popular_slide_wrapper">
+
+                                    <div class="popular_image">
+                                        <img src="img/popular_slide.png" alt="" class="popular_img">
+                                        <div class="popular_text_block">
+                                            <div class="popular_slide_title">Monument of Berlin</div>
+                                            <div class="popular_block">
+                                                <img src="img/popular_icon.svg" alt="" class="popular_icon">
+                                                <div class="popular_slide_subtitle">Berlin, Germany</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popular_slide swiper-slide">
+                                <div class="popular_slide_wrapper">
+
+                                    <div class="popular_image">
+                                        <img src="img/popular_slide_2.png" alt="" class="popular_img">
+                                        <div class="popular_text_block">
+                                            <div class="popular_slide_title">Millennium Bridge</div>
+                                            <div class="popular_block">
+                                                <img src="img/popular_icon.svg" alt="" class="popular_icon">
+                                                <div class="popular_slide_subtitle">London, United Kingdom</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popular_slide swiper-slide">
+                                <div class="popular_slide_wrapper">
+
+                                    <div class="popular_image">
+                                        <img src="img/popular_slide_3.png" alt="" class="popular_img">
+                                        <div class="popular_text_block">
+                                            <div class="popular_slide_title">Rialto Bridge</div>
+                                            <div class="popular_block">
+                                                <img src="img/popular_icon.svg" alt="" class="popular_icon">
+                                                <div class="popular_slide_subtitle">Venice, Italy</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popular_slide swiper-slide">
+                                <div class="popular_slide_wrapper">
+
+                                    <div class="popular_image">
+                                        <img src="img/popular_slide_4.png" alt="" class="popular_img">
+                                        <div class="popular_text_block">
+                                            <div class="popular_slide_title">Sea of Orange Tiles</div>
+                                            <div class="popular_block">
+                                                <img src="img/popular_icon.svg" alt="" class="popular_icon">
+                                                <div class="popular_slide_subtitle">Lisbon, Portugal</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price anim_items anim_no">
+                <div class="price_container">
+
+                    <div class="price_text_wrapper">
+                        <div class="price_title">Special Offer</div>
+                        <div class="price_subtitle">Check out our special offer and discounts</div>
+                    </div>
+
+                    <div class="price_swiper anim_items anim_no">
+
+                        <div class="price_nav_container">
+                            <div class="price_nav_wrapper">
+                                <div class="price_nav_L swiper-button-prev"></div>
+                                <div class="price_nav_R swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="price_swiper_wrapper swiper-wrapper">
+
+                            <div class="price_slide swiper-slide">
+                                <div class="price_slide_wrapper">
+
+                                    <div class="price_image">
+                                        <img src="img/price_slide.png" alt="" class="price_img">
+                                    </div>
+                                    <div class="price_slide_container">
+                                        <div class="price_slide_block">
+                                            <div class="price_slide_title">Lisbon, Portugal</div>
+                                            <div class="price_stars">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                            </div>
+                                        </div>
+                                        <div class="price_slide_subtitle">5 nights and 4 days in 5 star hotel, breakfast
+                                            and
+                                            lunch included. Very popular during the renaissance. Passage and going
+                                            through
+                                            the cites of the world in classical literature.</div>
+                                        <div class="price_slide_footer">
+                                            <div class="price_slide_left">
+                                                <div class="price_slide_footer_text">From</div>
+                                                <div class="price_cost">€500</div>
+                                            </div>
+                                            <a href="#" class="price_slide_link">Details</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="price_slide swiper-slide">
+                                <div class="price_slide_wrapper">
+
+                                    <div class="price_image">
+                                        <img src="img/price_slide_2.png" alt="" class="price_img">
+                                    </div>
+                                    <div class="price_slide_container">
+                                        <div class="price_slide_block">
+                                            <div class="price_slide_title">Athens, Greece</div>
+                                            <div class="price_stars">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                            </div>
+                                        </div>
+                                        <div class="price_slide_subtitle">5 nights and 4 days in 5 star hotel, breakfast
+                                            and
+                                            lunch included. Very popular during the renaissance. Passage and going
+                                            through
+                                            the cites of the world in classical literature.</div>
+                                        <div class="price_slide_footer">
+                                            <div class="price_slide_left">
+                                                <div class="price_slide_footer_text">From</div>
+                                                <div class="price_cost">€800</div>
+                                            </div>
+                                            <a href="#" class="price_slide_link">Details</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="price_slide swiper-slide">
+                                <div class="price_slide_wrapper">
+
+                                    <div class="price_image">
+                                        <img src="img/price_slide_3.png" alt="" class="price_img">
+                                    </div>
+                                    <div class="price_slide_container">
+                                        <div class="price_slide_block">
+                                            <div class="price_slide_title">Rome, Italy</div>
+                                            <div class="price_stars">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                            </div>
+                                        </div>
+                                        <div class="price_slide_subtitle">5 nights and 4 days in 5 star hotel, breakfast
+                                            and
+                                            lunch included. Very popular during the renaissance. Passage and going
+                                            through
+                                            the cites of the world in classical literature.</div>
+                                        <div class="price_slide_footer">
+                                            <div class="price_slide_left">
+                                                <div class="price_slide_footer_text">From</div>
+                                                <div class="price_cost">€750</div>
+                                            </div>
+                                            <a href="#" class="price_slide_link">Details</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="price_slide swiper-slide">
+                                <div class="price_slide_wrapper">
+
+                                    <div class="price_image">
+                                        <img src="img/price_slide.png" alt="" class="price_img">
+                                    </div>
+                                    <div class="price_slide_container">
+                                        <div class="price_slide_block">
+                                            <div class="price_slide_title">Lisbon, Portugal</div>
+                                            <div class="price_stars">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                                <img src="img/star.svg" alt="" class="price_star">
+                                            </div>
+                                        </div>
+                                        <div class="price_slide_subtitle">5 nights and 4 days in 5 star hotel, breakfast
+                                            and
+                                            lunch included. Very popular during the renaissance. Passage and going
+                                            through
+                                            the cites of the world in classical literature.</div>
+                                        <div class="price_slide_footer">
+                                            <div class="price_slide_left">
+                                                <div class="price_slide_footer_text">From</div>
+                                                <div class="price_cost">€500</div>
+                                            </div>
+                                            <a href="#" class="price_slide_link">Details</a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="blog anim_items anim_no">
+                <div class="blog_container">
+                    <div class="blog_top">
+                        <div class="blog_title">Our Blog</div>
+                        <div class="blog_subtitle">An insight the incredible experience in the world</div>
+                    </div>
+                    <div class="blog_bottom anim_items anim_no">
+                        <div class="blog_image">
+                            <img src="img/blog_img.png" alt="" class="blog_img">
+                        </div>
+                        <div class="blog_block">
+                            <div class="blog_block_title">Beautiful Italy
+                                Let’s travel</div>
+                            <div class="blog_block_subtitle">But I must explain to you how all this mistaken idea of
+                                denouncing pleasure and praising pain was born and I will give you a complete account of
+                                the system and expound the actual teachings of the great explorer of the truth, the
+                                master- builder of human happiness. No one rejects, dislike, or avoids plasure itself,
+                                because it is pleasure, but because those who do not know how to pursue pleasure
+                                rationally encounter consequences that are extremly painful. Nor again is there anyone
+                                who loves or pursues.</div>
+                            <a href="#" class="blog_link">
+                                <span class="blog_link_text">Read More</span>
+                                <img src="img/blog_icon.svg" alt="" class="blog_link_icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="trip anim_items anim_no">
+                <div class="trip_container">
+
+                    <div class="trip_block">
+                        <div class="trip_title">Trip Planners</div>
+                        <div class="trip_subtitle">20 years from now you will be more disappointed by the things
+                            that
+                            you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.
+                        </div>
+                        <div class="trip_link_wrapper">
+                            <a href="#" class="trip_link">View all trip plans</a>
+                        </div>
+                    </div>
+
+
+                    <div class="trip_swiper">
+                        <div class="trip_swiper_container swiper-wrapper">
+
+                            <div class="trip_slide swiper-slide">
+                                <div class="trip_slide_container">
+
+                                    <div class="trip_slide_image">
+                                        <img src="img/Trip_1.png" alt="" class="trip_slide_img">
+                                        <div class="trip_slide_block">
+                                            <div class="trip_block_top">
+                                                <div class="trip_top_left">Guided Tour</div>
+                                                <div class="trip_top_right">€99/Day</div>
+                                            </div>
+                                            <div class="trip_bottom_title">Rome City Tour</div>
+                                            <div class="trip_block_bottom">
+                                                <div class="trip_bottom_left">
+                                                    <div class="trip_stars">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                    </div>
+                                                </div>
+
+                                                <div class="trip_bottom_right">7 Days tour</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="trip_slide swiper-slide">
+                                <div class="trip_slide_container">
+
+                                    <div class="trip_slide_image">
+                                        <img src="img/Trip_2.png" alt="" class="trip_slide_img">
+                                        <div class="trip_slide_block">
+                                            <div class="trip_block_top">
+                                                <div class="trip_top_left">Guided Tour</div>
+                                                <div class="trip_top_right">€95/Day</div>
+                                            </div>
+                                            <div class="trip_bottom_title">Paris City Tour</div>
+                                            <div class="trip_block_bottom">
+                                                <div class="trip_bottom_left">
+                                                    <div class="trip_stars">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                    </div>
+                                                </div>
+
+                                                <div class="trip_bottom_right">7 Days tour</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="trip_slide swiper-slide">
+                                <div class="trip_slide_container">
+
+                                    <div class="trip_slide_image">
+                                        <img src="img/Trip_3.png" alt="" class="trip_slide_img">
+                                        <div class="trip_slide_block">
+                                            <div class="trip_block_top">
+                                                <div class="trip_top_left">Guided Tour</div>
+                                                <div class="trip_top_right">€89/Day</div>
+                                            </div>
+                                            <div class="trip_bottom_title">Barcelona City Tour</div>
+                                            <div class="trip_block_bottom">
+                                                <div class="trip_bottom_left">
+                                                    <div class="trip_stars">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                    </div>
+                                                </div>
+
+                                                <div class="trip_bottom_right">7 Days tour</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="trip_slide swiper-slide">
+                                <div class="trip_slide_container">
+
+                                    <div class="trip_slide_image">
+                                        <img src="img/Trip_4.png" alt="" class="trip_slide_img">
+                                        <div class="trip_slide_block">
+                                            <div class="trip_block_top">
+                                                <div class="trip_top_left">Guided Tour</div>
+                                                <div class="trip_top_right">€89/Day</div>
+                                            </div>
+                                            <div class="trip_bottom_title">Budapest City Tour</div>
+                                            <div class="trip_block_bottom">
+                                                <div class="trip_bottom_left">
+                                                    <div class="trip_stars">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                        <img src="img/star.svg" alt="" class="trip_star">
+                                                    </div>
+                                                </div>
+
+                                                <div class="trip_bottom_right">7 Days tour</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="trip_elements">
+
+                        <div class="trip_element">
+                            <div class="trip_image">
+                                <img src="img/trip_ad_1.png" alt="" class="trip_img">
+                                <img src="img/Trip_1.png" alt="" class="trip_img_2">
+                            </div>
+                            <div class="trip_element_block">
+                                <div class="trip_element_top">
+                                    <div class="trip_top_left">Guided Tour</div>
+                                    <div class="trip_top_right">€99/Day</div>
+                                </div>
+                                <div class="trip_bottom_title">Rome City Tour</div>
+                                <div class="trip_element_bottom">
+                                    <div class="trip_bottom_left">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                    </div>
+                                    <div class="trip_bottom_right">7 Days tour</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="trip_element">
+                            <div class="trip_image">
+                                <img src="img/trip_ad_2.png" alt="" class="trip_img">
+                                <img src="img/Trip_2.png" alt="" class="trip_img_2">
+                            </div>
+                            <div class="trip_element_block">
+                                <div class="trip_element_top">
+                                    <div class="trip_top_left">Guided Tour</div>
+                                    <div class="trip_top_right">€95/Day</div>
+                                </div>
+                                <div class="trip_bottom_title">Paris City Tour</div>
+                                <div class="trip_element_bottom">
+                                    <div class="trip_bottom_left">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                    </div>
+                                    <div class="trip_bottom_right">7 Days tour</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="trip_element">
+                            <div class="trip_image">
+                                <img src="img/trip_ad_3.png" alt="" class="trip_img">
+                                <img src="img/Trip_3.png" alt="" class="trip_img_2">
+                            </div>
+                            <div class="trip_element_block">
+                                <div class="trip_element_top">
+                                    <div class="trip_top_left">Guided Tour</div>
+                                    <div class="trip_top_right">€89/Day</div>
+                                </div>
+                                <div class="trip_bottom_title">Barcelona City Tour</div>
+                                <div class="trip_element_bottom">
+                                    <div class="trip_bottom_left">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                    </div>
+                                    <div class="trip_bottom_right">7 Days tour</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="trip_element">
+                            <div class="trip_image">
+                                <img src="img/trip_ad_4.png" alt="" class="trip_img">
+                                <img src="img/Trip_4.png" alt="" class="trip_img_2">
+                            </div>
+                            <div class="trip_element_block">
+                                <div class="trip_element_top">
+                                    <div class="trip_top_left">Guided Tour</div>
+                                    <div class="trip_top_right">€89/Day</div>
+                                </div>
+                                <div class="trip_bottom_title">Budapest City Tour</div>
+                                <div class="trip_element_bottom">
+                                    <div class="trip_bottom_left">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                        <img src="img/star.svg" alt="" class="trip_star">
+                                    </div>
+                                    <div class="trip_bottom_right">7 Days tour</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="gallery anim_items anim_no">
+                <div class="gallery_container">
+
+                    <div class="gallery_block">
+                        <div class="gallery_title">Destination Gallery</div>
+                        <div class="gallery_subtitle">Our photo gallery on trip</div>
+                    </div>
+
+                    <div class="gallery_swiper_wrapper">
+
+                        <div class="gallery_nav_2_wrapper">
+                            <div class="gallery_nav_2">
+                                <div class="gallery_nav_L_2 swiper-button-prev"></div>
+                                <div class="gallery_nav_R_2 swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="gallery_swiper">
+
+                            <div class="gallery_nav">
+                                <div class="gallery_nav_L swiper-button-prev"></div>
+                                <div class="gallery_nav_R swiper-button-next"></div>
+                            </div>
+
+                            <div class="gallery_swiper_container swiper-wrapper">
+
+                                <div class="gallery_slide swiper-slide">
+                                    <div class="gallery_slide_wrapper">
+
+                                        <div class="gallery_image">
+                                            <img src="img/gallery_1.png" alt="" class="gallery_img">
+                                            <img src="img/gallery_adaptive_1.png" alt="" class="gallery_image_none">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="gallery_slide swiper-slide">
+                                    <div class="gallery_slide_wrapper">
+
+                                        <div class="gallery_image">
+                                            <img src="img/gallery_2.png" alt="" class="gallery_img">
+                                            <img src="img/gallery_adaptive_2.png" alt="" class="gallery_image_none">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="gallery_slide swiper-slide">
+                                    <div class="gallery_slide_wrapper">
+
+                                        <div class="gallery_image">
+                                            <img src="img/gallery_3.png" alt="" class="gallery_img">
+                                            <img src="img/gallery_adaptive_3.png" alt="" class="gallery_image_none">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="gallery_slide swiper-slide">
+                                    <div class="gallery_slide_wrapper">
+
+                                        <div class="gallery_image">
+                                            <img src="img/gallery_4.png" alt="" class="gallery_img">
+                                            <img src="img/gallery_adaptive_4.png" alt="" class="gallery_image_none">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="gallery_slide swiper-slide">
+                                    <div class="gallery_slide_wrapper">
+
+                                        <div class="gallery_image">
+                                            <img src="img/gallery_1.png" alt="" class="gallery_img">
+                                            <img src="img/gallery_adaptive_1.png" alt="" class="gallery_image_none">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiences anim_items anim_no">
+                <div class="experiences_container">
+
+                    <div class="experiences_block">
+                        <div class="experiences_title">Traveler’s Experiences</div>
+                        <div class="experiences_subtitle">Here some awesome feedback from our travelers</div>
+                    </div>
+
+                    <div class="experiences_swiper anim_items anim_no">
+
+                        <div class="experiences_nav_wrapper">
+                            <div class="experiences_nav">
+                                <div class="experiences_nav_L swiper-button-prev"></div>
+                                <div class="experiences_nav_R swiper-button-next"></div>
+                            </div>
+                        </div>
+
+                        <div class="experiences_swiper_container swiper-wrapper">
+
+                            <div class="experiences_slide swiper-slide">
+                                <div class="experiences_slide_wrapper">
+
+                                    <img src="img/experiences_1.png" alt="" class="experiences_image">
+
+                                    <div class="experiences_slide_subtitle">But I must explain to you how all this
+                                        mistaken idea of denouncing pleasure and praising pain was born and I will give
+                                        you a complete account of the system and expound the actual teachings of the
+                                        great explorer of the truth, the master- builder of human happiness.</div>
+
+                                    <div class="experiences_stars">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                    </div>
+
+                                    <div class="experiences_slide_bottom">
+                                        <div class="experiences_bottom_title">John Doe</div>
+                                        <div class="experiences_bottom_subtitle">Accountant</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="experiences_slide swiper-slide">
+                                <div class="experiences_slide_wrapper">
+
+                                    <img src="img/experiences_2.png" alt="" class="experiences_image">
+
+                                    <div class="experiences_slide_subtitle">But I must explain to you how all this
+                                        mistaken idea of denouncing pleasure and praising pain was born and I will give
+                                        you a complete account of the system and expound the actual teachings of the
+                                        great explorer of the truth, the master- builder of human happiness.</div>
+
+                                    <div class="experiences_stars">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                    </div>
+
+                                    <div class="experiences_slide_bottom">
+                                        <div class="experiences_bottom_title">John Smith</div>
+                                        <div class="experiences_bottom_subtitle">Journalist, HWO News</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="experiences_slide swiper-slide">
+                                <div class="experiences_slide_wrapper">
+
+                                    <img src="img/experiences_3.png" alt="" class="experiences_image">
+
+                                    <div class="experiences_slide_subtitle">But I must explain to you how all this
+                                        mistaken idea of denouncing pleasure and praising pain was born and I will give
+                                        you a complete account of the system and expound the actual teachings of the
+                                        great explorer of the truth, the master- builder of human happiness.</div>
+
+                                    <div class="experiences_stars">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                        <img src="img/star.svg" alt="" class="experiences_star">
+                                    </div>
+
+                                    <div class="experiences_slide_bottom">
+                                        <div class="experiences_bottom_title">Tamara Bellis</div>
+                                        <div class="experiences_bottom_subtitle">Managing Director, JTH</div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="mail anim_items anim_no">
+                <div class="mail_container">
+                    <div class="mail_wrapper">
+
+                        <div class="mail_title">Our Newsletter</div>
+
+                        <form action="#" method="get" enctype="multipart/form-data" class="mail_form">
+                            <div class="mail_form_title">Email</div>
+                            <div class="mail_block">
+                                <input type="mail" tabindex="1" placeholder="Enter your email" name="userEmail" value=""
+                                    class="mail_field">
+                                <button type="submit" tabindex="2" class="mail_button">Subscribe</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div class="footer anim_items anim_no">
+                <div class="footer_container">
+
+                    <div class="footer_left">
+                        <a href="#" class="footer_logo">
+                            <img src="img/Logo.svg" alt="">
+                        </a>
+                        <div class="footer_logo_subtitle">Copyright © Travellian 2020 All rights reserved</div>
+                    </div>
+
+                    <div class="footer_block">
+                        <div class="footer_title">Menu</div>
+                        <div class="footer_link">
+                            <a href="#" class="footer_links" style="--order: 1">Home</a>
+                            <a href="#" class="footer_links" style="--order: 2">Explore</a>
+                            <a href="#" class="footer_links" style="--order: 3">Travel</a>
+                            <a href="#" class="footer_links" style="--order: 4">Blog</a>
+                            <a href="#" class="footer_links" style="--order: 5">Pricing</a>
+                        </div>
+                    </div>
+
+                    <div class="footer_block">
+                        <div class="footer_title">Information</div>
+                        <div class="footer_link">
+                            <a href="#" class="footer_links" style="--order: 1">Destinations</a>
+                            <a href="#" class="footer_links" style="--order: 2">Supports</a>
+                            <a href="#" class="footer_links" style="--order: 3">Terms & Conditions</a>
+                            <a href="#" class="footer_links" style="--order: 4">Privacy</a>
+                        </div>
+                    </div>
+
+                    <div class="footer_block">
+                        <div class="footer_title">Contact Info</div>
+                        <div class="footer_link">
+                            <div class="footer_links" style="--order: 1">+123 456 789</div>
+                            <div class="footer_links" style="--order: 2">info@travellian.com</div>
+                            <div class="footer_links" style="--order: 3">1245, New Yourk, USA</div>
+                        </div>
+                    </div>
+
+                    <div class="footer_right">
+                        <div class="footer_right_title">Follow us on</div>
+                        <div class="footer_icons">
+                            <a href="#" class="footer_icon">
+                                <img src="img/footer_icon_1.svg" alt="">
+                            </a>
+                            <a href="#" class="footer_icon">
+                                <img src="img/footer_icon_2.svg" alt="">
+                            </a>
+                            <a href="#" class="footer_icon">
+                                <img src="img/footer_icon_3.svg" alt="">
+                            </a>
+                            <a href="#" class="footer_icon">
+                                <img src="img/footer_icon_4.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="AirDatepicker/air-datepicker.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
